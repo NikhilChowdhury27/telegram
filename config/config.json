@@ -1,0 +1,15 @@
+{
+	"development": {
+		"username": "himanshu",
+    "password": "himanshu",
+    "database": "classplus-staging",
+    "host": "classplus-staging-ums.ccbjnqiu5qm8.ap-south-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+	"test": {
+		"database": "ums-staging",
+		"host": "localhost",
+		"dialect": "sqlite",
+		"storage": "./test.database.sqlite3"
+	}
+}

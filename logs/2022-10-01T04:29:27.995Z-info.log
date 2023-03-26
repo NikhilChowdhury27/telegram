@@ -1,0 +1,2 @@
+{"level":"error","message":"{\"message\":\"Page Not Found - /coupons/checkCouponValidity\",\"payload\":{\"couponName\":\"fan100\",\"groupId\":\"1412\",\"plan\":\"{\\\"price\\\":200,\\\"discount\\\":0,\\\"selectedPeriod\\\":\\\"2 Months\\\"}\"}}"}
+{"level":"error","message":"{\"message\":\"Page Not Found - /clip-connect/checkCouponValidity\",\"payload\":{\"couponName\":\"fan100\",\"groupId\":\"1412\",\"plan\":\"{\\\"price\\\":200,\\\"discount\\\":0,\\\"selectedPeriod\\\":\\\"2 Months\\\"}\"}}"}

@@ -1,0 +1,37 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"types": [
+			"node",
+			"jest"
+		],
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"declaration": false,
+		"target": "es6",
+		"module": "commonjs",
+		"noImplicitAny": false,
+		"moduleResolution": "node",
+		"noUnusedLocals": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"outDir": "dist",
+		"baseUrl": "./",
+		"lib": [
+			"ES2020.Promise",
+			"DOM",
+			"esnext.asynciterable"
+		]
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/tests/**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts",
+		// "**/*.d.ts"
+	]
+}

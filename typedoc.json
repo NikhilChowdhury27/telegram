@@ -1,0 +1,12 @@
+{
+    "name": "Classplus Documentation",
+    "entryPoints": ["src/server.ts"],
+    "readme": "./README.md",
+    "hideGenerator": "true",
+    "out": "docs",
+    "exclude": ["src/tests/**/*", "node_modules/**/*", "dist/**/*"],
+    "theme": "default",
+    "excludePrivate": "true",
+    "excludeExternals": "true",
+    "externalPattern": "node_modules"
+}

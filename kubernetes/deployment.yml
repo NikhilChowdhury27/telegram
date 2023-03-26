@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: classplus-boilerplate
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: classplus-boilerplate
+  template:
+    metadata:
+      labels:
+        app: classplus-boilerplate
+    spec:
+      containers:
+        - name: classplus-boilerplate
+          image: 445976292670.dkr.ecr.ap-south-1.amazonaws.com/classplus-whitelabelapi-preprod
+          ports:
+            - containerPort: 8085
